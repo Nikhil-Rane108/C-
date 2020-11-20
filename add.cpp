@@ -1,12 +1,11 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include<iostream>
+using namespace std;
+int main()
 {
      float a,b;
-     clrscr();
-     cout<<"Enter two number";
+     cout<<"Enter two number:";
      cin>>a>>b;
      a=a+b;
-     cout<<a;
-getch();
+     cout<<"Addition of two number is "<<a;
+     return 0;
 }     
